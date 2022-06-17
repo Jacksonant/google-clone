@@ -1,0 +1,35 @@
+.language__section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    line-height: 28px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 172px 0px;
+
+    /* border: 1px solid black; */
+}
+
+.text{
+    margin-bottom: 24px;
+
+    /* border: 1px solid black; */
+}
+
+.text > p{
+    /* border: 1px solid black; */
+    color: #3c4043;
+
+    margin-top: 4px;
+}
+
+.select__language{
+    font-size: 13px;
+    color: #1a0dab;
+    cursor: pointer;
+}
+
+.select__language:hover{
+    text-decoration: underline;
+}

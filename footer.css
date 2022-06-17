@@ -1,0 +1,94 @@
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+
+    /* border: 2px solid black; */
+}
+
+/*-------------------------------
+top section
+------------------------------- */
+.country{
+    padding: 0px 20px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+
+}
+
+/*-------------------------------
+bottom section: left and right
+------------------------------- */
+
+.bottom__buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 25px;
+    height: 40px;
+
+    /* border: 1px solid black; */
+
+}
+
+/*-------------------------------
+bottom left section
+------------------------------- */
+/* .four__buttons{ */
+    /* border: 1px solid black; */
+
+/* } */
+
+.four__buttons > *{
+
+    padding: 0 20px;
+    text-decoration: none;
+    padding: 2px;
+    cursor: pointer;
+    color: #70757a;
+    /* border: 1px solid black; */
+
+}
+
+.four__buttons > *:hover{
+    text-decoration: underline;
+}
+
+.four__buttons > * + * {
+    padding-left: 25px;
+    /* padding-right: 5px; */
+}
+
+/*-------------------------------
+bottom right section
+------------------------------- */
+
+/* .three__buttons{ */
+    /* border: 1px solid black; */
+
+/* } */
+
+.three__buttons > *{
+
+    padding: 0 20px;
+    text-decoration: none;
+    padding: 2px;
+    cursor: pointer;
+    color: #70757a;
+    /* border: 1px solid black; */
+
+}
+
+.three__buttons > *:hover{
+    text-decoration: underline;
+}
+
+.three__buttons > * + * {
+    padding-left: 25px;
+    /* padding-right: 5px; */
+}

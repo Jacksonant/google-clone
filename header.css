@@ -1,0 +1,148 @@
+.body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    /* flex-shrink: 0; */
+    padding: 0 5px;
+
+    /* border: 2px solid black; */
+    height: auto;
+
+}
+
+.header__container{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 48px;
+    padding: 0 4px;
+    margin-top: 0px;
+
+    justify-content: flex-end;
+    vertical-align: middle;
+    align-items: center;
+    /* border: 2px solid black; */
+
+}
+
+/* -------------------------------------------
+left section
+------------------------------------------- */
+
+.left__buttons{
+    display: flex;
+    flex-direction: row;
+    /* line-height: normal; */
+    padding-right: 15px;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+
+    /* border: 2px solid black; */
+}
+
+.gmail__button{
+    padding-left: 15px;
+}
+
+.gmail__button > a{
+    text-decoration: none;
+}
+
+.gmail__button > a:hover{
+    text-decoration: underline;
+}
+
+.images__button{
+    padding-left: 15px;
+}
+
+.images__button > a{
+    text-decoration: none;
+}
+
+.images__button > a:hover{
+    text-decoration: underline;
+}
+
+/* -------------------------------------------
+right section
+------------------------------------------- */
+
+.right__buttons{
+    display: flex;
+    flex-direction: row;
+
+    /* border: 2px solid black; */
+}
+
+.apps__button{
+
+    color: white;
+    margin-right: 1rem;
+    cursor: pointer;
+    /* border: 1px solid green; */
+    border: transparent;
+    border-radius: 9999px;
+    background-color: white;
+    padding: 8px;
+    white-space: nowrap;
+
+}
+
+.apps__button:hover{
+    background-color: #eff0f3;
+    /* border: 1px solid black; */
+
+}
+
+.apps__image{
+    /* z-index: 0; */
+    cursor: pointer;
+    /* opacity: 1; */
+    height: 25px;
+    width: 25px;
+    /* line-height: normal; */
+    /* border:  1px solid black; */
+    vertical-align: middle;
+    border-radius: 2px;
+    opacity: 0.6;
+
+}
+
+.sign__in__button{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #1a73e8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 96px;
+    padding: 10px 23px;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    height: fit-content;
+    margin-top: 2px;
+
+
+}
+
+.sign__in__button > a{
+    color: white;
+    text-decoration: none;
+    /* border: 1px solid black; */
+}
+
+.sign__in__button:hover{
+    /* border-style: hidden; */
+    opacity: 0.9;
+    box-shadow: 1px 1px 2px 0.1px grey;
+}
